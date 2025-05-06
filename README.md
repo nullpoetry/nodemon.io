@@ -33,7 +33,7 @@ You can edit `index.html` and modify the Solid.js components inside the `<script
 
 ## License
 
-MIT License - open-source
+APACHE License - open-source
 
 ## About nodemon
 
