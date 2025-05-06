@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>nodemon - Monitor for any changes in your node.js application</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace, monospace;
+    background: #0b0d0f;
+    color: #e6ebf1;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  header {
+    background: #22272e;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #61dafb;
+    letter-spacing: 0.05em;
+    user-select: none;
+  }
+  nav a {
+    color: #8ab4f8;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+  }
+  nav a:first-child {
+    margin-left: 0;
+  }
+  nav a:hover {
+    color: #61dafb;
+  }
+  main {
+    flex-grow: 1;
+    padding: 2rem 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  main h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #61dafb;
+  }
+  main p {
+    font-size: 1.1rem;
+    margin-bottom: 1.75rem;
+    color: #cfd8fc;
+  }
+  .btn-primary {
+    background: #61dafb;
+    color: #0b0d0f;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  .btn-primary:hover {
+    background-color: #52c0ef;
+  }
+  section.features {
+    margin-top: 3rem;
+    text-align: left;
+  }
+  section.features h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #61dafb;
+    text-align: center;
+  }
+  .feature-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    font-size: 1rem;
+    color: #cfd8fc;
+  }
+  .feature-list li {
+    background: #1b1e23;
+    padding: 1rem 1.25rem;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(97,218,251,0.25);
+    list-style: none;
+  }
+  footer {
+    background: #22272e;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #8ab4f8;
+  }
+  @media (max-width: 400px) {
+    main h1 {
+      font-size: 1.8rem;
+    }
+    nav a {
+      font-size: 0.9rem;
+      margin-left: 0.7rem;
+    }
+    .btn-primary {
+      padding: 0.6rem 1.5rem;
+      font-size: 1rem;
+    }
+    section.features h2 {
+      font-size: 1.4rem;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">nodemon</div>
+  <nav>
+    <a href="https://nodemon.io/about" target="_blank" rel="noopener noreferrer">About</a>
+    <a href="https://nodemon.io/docs" target="_blank" rel="noopener noreferrer">Docs</a>
+    <a href="https://github.com/remy/nodemon" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </nav>
+</header>
+<main>
+  <h1>Monitor for any changes in your node.js application</h1>
+  <p>nodemon is a utility that will monitor for any changes in your source and automatically restart your server. Perfect for development.</p>
+  <a class="btn-primary" href="https://github.com/remy/nodemon" target="_blank" rel="noopener noreferrer">Get nodemon on GitHub</a>
+  <section class="features">
+    <h2>Features</h2>
+    <ul class="feature-list">
+      <li>Automatic restart on file changes - save time and improve your development workflow</li>
+      <li>Supports various extensions and types out of the box</li>
+      <li>Simple, zero-configuration notifier that just works</li>
+      <li>Cross-platform support to work seamlessly on Windows, macOS, and Linux</li>
+      <li>Configurable and extensible with advanced options for power users</li>
+    </ul>
+  </section>
+</main>
+<footer>
+  &copy; 2024 nodemon | Created inspired by nodemon.io
+</footer>
+</body>
+</html>
+
